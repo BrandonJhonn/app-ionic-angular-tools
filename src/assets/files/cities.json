@@ -1,0 +1,22 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "image": "card-place-1.png",
+            "name": "Los Andes",
+            "desc": "En este vídeo vamos a ver como pasar parámetros entre páginas en Ionic 6 con Angular. Usaremos el método más fácil que es a través de la url, usando router. Cambiaremos el path  y pasaremos el id de una ciudad, para que podamos hacer una petición simulada a una API, pero a través de un JSON."
+        },
+        {
+            "id": 2,
+            "image": "card-place-2.png",
+            "name": "Reino Unido",
+            "desc": "En este vídeo vamos a ver como pasar parámetros entre páginas en Ionic 6 con Angular. Usaremos el método más fácil que es a través de la url, usando router. Cambiaremos el path  y pasaremos el id de una ciudad, para que podamos hacer una petición simulada a una API, pero a través de un JSON."
+        },
+        {
+            "id": 3,
+            "image": "card-place-3.jpg",
+            "name": "Islandia",
+            "desc": "En este vídeo vamos a ver como pasar parámetros entre páginas en Ionic 6 con Angular. Usaremos el método más fácil que es a través de la url, usando router. Cambiaremos el path  y pasaremos el id de una ciudad, para que podamos hacer una petición simulada a una API, pero a través de un JSON."
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "data": [
+        {
+            "image": "avatar-han.png",
+            "name": "Han",
+            "state": "Look, kid...",
+            "description": "I've got enough on my plate as it is, and I..."
+        },
+        {
+            "image": "avatar-rey.png",
+            "name": "Rey",
+            "state": "I can handle myself",
+            "description": "You will remove these restraints and leave..."
+        },
+        {
+            "image": "avatar-yoda.png",
+            "name": "Yoda",
+            "state": "Size matters not",
+            "description": "Do or do not. There is no try..."
+        }
+    ]
+}

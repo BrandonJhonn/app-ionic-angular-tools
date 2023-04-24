@@ -1,0 +1,20 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="personal">
+    <ion-title>{{model.name}}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">{{model.name}}</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-card>
+    <img src="../../assets/cities-img/{{model.image}}" />
+  </ion-card>
+
+  <div class="desc">{{model.desc}}</div>
+
+</ion-content>

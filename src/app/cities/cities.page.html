@@ -1,0 +1,23 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="personal">
+    <ion-title>Cities</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Cities</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-row>
+    <ion-col sizeLg="6" sizeMd="6" sizeXs="12" *ngFor="let city of cities">
+      <ion-card [routerLink]="['/city', city.id]">
+        <img src="../../assets/cities-img/{{city.image}}" />
+        <div class="card-title">{{city.name}}</div>
+      </ion-card>
+    </ion-col>
+  </ion-row>
+
+</ion-content>
